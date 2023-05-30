@@ -19,6 +19,7 @@ while (!feof($arquivo)) {
 // Boa prática fechar o arquivo após leitura:
 fclose($arquivo);
 
+///////////////////////////////////////////////////////////////////////
 
 // Segunda maneira:
 // Abrindo um arquivo em modo de leitura:
@@ -36,6 +37,8 @@ echo $cursos;
 
 fclose($arquivo);
 
+///////////////////////////////////////////////////////////////////////
+
 /*
  * Terceira maneira:Por meio da função file_get_contents:
  * Recebe o nome do arquivo por parâmetro e faz o trabalho das outras funções juntas:
@@ -46,6 +49,7 @@ $cursos = file_get_contents('lista-cursos.txt');
 
 echo $cursos;
 
+///////////////////////////////////////////////////////////////////////
 
 //Quarta maneira: Abrir como array:
 

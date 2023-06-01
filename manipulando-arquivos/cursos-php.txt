@@ -2,3 +2,4 @@ Design Patterns PHP I
 Design Patterns PHP I
 Design Patterns PHP II
 Design Patterns II
+PHP I/O: trabalhando com arquivos e streams
